@@ -28,9 +28,9 @@ clean:
 	rm -rf $(OBJ_DIR) $(BIN_DIR)
 
 check:
-	shell: /usr/bin/bash -e {0}
+	@echo "Nothing to be done for 'check'."
 
 distcheck:
-	shell: /usr/bin/bash -e {0}
+	@echo "Nothing to be done for 'distcheck'."
 
 .PHONY: all dirs clean check distcheck
