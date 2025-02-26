@@ -1,0 +1,4 @@
+obj/
+bin/
+*.o
+data/output.txt
